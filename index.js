@@ -1,6 +1,6 @@
 // Constants
-const WINDOWWIDTH = 900;
-const WINDOWHEIGHT = 835;
+const WINDOWWIDTH = window.innerWidth
+const WINDOWHEIGHT = window.innerHeight;
 const FPS = 60;
 const SIZE = 2.2;
 const SPEED_CHANGE_SIZE = 0.05;
@@ -15,7 +15,7 @@ const NUM_FIREWORKS_MAX = 10;
 const NUM_FIREWORKS_MIN = 2;
 const SPEED_FLY_UP_MAX = 15;
 const SPEED_FLY_UP_MIN = 8;
-
+console.log({window});
 const BLACK = "#000000";
 const WHITE = "#FFFFFF";
 const FONT_SIZE = 24;
@@ -229,7 +229,7 @@ class Main {
             if (currentTime >= this.newYearDisplayTime) {
                 this.context.fillStyle = WHITE;
                 this.context.font = `${FONT_SIZE}px Arial`;
-                this.context.fillText("HAPPY NEW YEAR 2024!", WINDOWWIDTH / 3, WINDOWHEIGHT / 2);
+                this.context.fillText("HAPPY NEW YEAR 2024!", WINDOWWIDTH / 2, WINDOWHEIGHT / 2);
             }
         }
 
