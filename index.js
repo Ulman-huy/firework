@@ -229,7 +229,7 @@ class Main {
             if (currentTime >= this.newYearDisplayTime) {
                 this.context.fillStyle = WHITE;
                 this.context.font = `${FONT_SIZE}px Arial`;
-                this.context.fillText("Anh yêu em nhiều <3", WINDOWWIDTH / 2, WINDOWHEIGHT / 2);
+                this.context.fillText("Anh yêu em nhìu <3", WINDOWWIDTH / 2, WINDOWHEIGHT / 2);
             }
         }
 
