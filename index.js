@@ -1,5 +1,5 @@
 // Constants
-const WINDOWWIDTH = 1600;
+const WINDOWWIDTH = 900;
 const WINDOWHEIGHT = 835;
 const FPS = 60;
 const SIZE = 2.2;
@@ -18,7 +18,7 @@ const SPEED_FLY_UP_MIN = 8;
 
 const BLACK = "#000000";
 const WHITE = "#FFFFFF";
-const FONT_SIZE = 36;
+const FONT_SIZE = 24;
 
 class Dot {
     constructor(x, y, size, color) {
